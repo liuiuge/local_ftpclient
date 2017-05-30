@@ -1,0 +1,21 @@
+#ifndef __HEAD_H__
+#define __HEAD_H__
+#include <arpa/inet.h>
+#include <sys/socket.h>
+#include <netinet/in.h>
+#include <stdio.h>
+#include <netdb.h>
+#include <string.h>
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <unistd.h>
+#include <stdlib.h>
+#include <errno.h>
+#include <sys/time.h>
+#include <sys/epoll.h>
+#include <signal.h>
+#include <sys/stat.h>
+#include <sys/uio.h>
+#include <fcntl.h>
+#include <sys/wait.h>
+#endif
